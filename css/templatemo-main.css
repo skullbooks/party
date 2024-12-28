@@ -21,9 +21,9 @@ body {
   font-size: 14px;
 }
 
-a { color: #3CC; }
+a { color: #c60000; }
 
-a:hover { color: #FF0; }
+a:hover { color: #9a0c0c; }
 
 /*----------
   NAV
@@ -124,7 +124,7 @@ a:hover { color: #FF0; }
 
 .primary-button a {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #c60000;
   padding: 15px 24px;
   border-radius: 3px;
   text-transform: uppercase;
@@ -159,7 +159,7 @@ a:hover { color: #FF0; }
 }
 
 .baner-content em {
-  color: #ff7d27;
+  color: #c60000;
   font-weight: 600;
   font-style: normal;
 }
@@ -202,7 +202,7 @@ h4, .h4 {
 .service-content .left-text .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #c60000;
   margin: 20px 0px 20px 0px;
 }
 
@@ -237,10 +237,23 @@ h4, .h4 {
 .service-content .service-item .line-dec {
   width: 45px;
   height: 3px;
-  background-color: #ff7d27;
+  background-color: #c60000;
   margin: 20px auto 15px auto;
 }
 
+.testimonials-item a:hover {
+  text-decoration: none !important;
+}
+
+.testimonials-item h4 {
+  color: #000 !important;
+}
+
+.testimonials-item img {
+  max-height: 160px;
+  padding: 20px;
+  background: rgba(0,0,0,.7);
+}
 
 
 .projects-content {
@@ -272,7 +285,7 @@ h4, .h4 {
   font-style: normal;
   font-size: 17px;
   font-weight: 700;
-  color: #ff7d27;
+  color: #c60000;
 }
 
 .owl-pagination {
@@ -340,11 +353,11 @@ section {
 }
 
 .tabs a:hover {
-  color: #ff7d27;
+  color: #c60000;
 }
 
 .tabs .active {
-  border:4px solid #ff7d27;
+  border:4px solid #c60000;
 }
 
 .tabgroup div  {
@@ -369,6 +382,11 @@ section {
   padding-right: 15px;
   padding-top: 16vh;
   background-image: url(../img/5th-section.jpg);
+
+  background-attachment: fixed;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center center;
 }
 
 .contact-form {
@@ -410,7 +428,7 @@ section {
 
 #contact button {
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #c60000;
   padding: 15px 24px;
   width: 100%;
   border-radius: 3px;
@@ -458,7 +476,7 @@ footer ul li a {
   line-height: 40px;
   text-align: center;
   display: inline-block;
-  background-color: #ff7d27;
+  background-color: #c60000;
   color: #282b2f;
   border-radius: 50%;
   text-decoration: none;
@@ -515,7 +533,7 @@ footer em {
   .service-content .left-text .line-dec {
     width: 45px;
     height: 3px;
-    background-color: #ff7d27;
+    background-color: #c60000;
     margin: 20px auto 20px auto;
   }
 
