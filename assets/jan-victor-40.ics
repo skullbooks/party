@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//tux//party//EN
+BEGIN:VEVENT
+UID:info@leemomedia.de
+DTSTAMP:20231017T190000Z
+ORGANIZER;CN=Jan-Victor:MAILTO:jan-victor.krille@leemomedia.de
+DTSTART:20251017T170000Z
+DTEND:20251017T210000Z
+SUMMARY:Jan-Victor wird 40
+LOCATION:Heilandskirche, Sickstraße 37, 70190 Stuttgart
+DESCRIPTION:Besuchen Sie https://skullbooks.github.io/party/ für weitere Informationen.
+BEGIN:VALARM
+TRIGGER:-P45D
+ACTION:DISPLAY
+DESCRIPTION:Bitte Rückmeldung geben!
+END:VALARM
+END:VEVENT
+END:VCALENDAR

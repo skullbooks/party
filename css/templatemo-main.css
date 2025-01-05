@@ -133,6 +133,7 @@ a:hover { color: #9a0c0c; }
   font-weight: 700;
   text-decoration: none;
   letter-spacing: 0.5px;
+  margin-bottom: 15px;
 }
 
 
@@ -395,6 +396,14 @@ section {
   margin-bottom: 30px;
 }
 
+.contact-form a {
+  background-color: #fff;
+  padding: 30px 25px;
+  text-align: center;
+  display: block;
+  font-weight: bold;
+}
+
 #contact input {
   border-radius: 3px;
   padding-left: 15px;
@@ -506,8 +515,14 @@ footer em {
 
 @media (max-width: 767px){
   
+  .projects-content {
+    background-position: 30% center !important;
+    padding-top: 5vh;
+  }
+
   .baner-content {
     padding-top: 30vh;
+    background-position: 30% center !important;
   }
 
   .baner-content h1 {
