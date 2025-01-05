@@ -9,7 +9,7 @@ DTSTART:20251017T170000Z
 DTEND:20251017T210000Z
 SUMMARY:Jan-Victor wird 40
 LOCATION:Heilandskirche, Sickstraße 37, 70190 Stuttgart
-DESCRIPTION:Besuchen Sie https://skullbooks.github.io/party/ für weitere Informationen.
+DESCRIPTION:Mehr Infos und Rückmeldung bitte under https://skullbooks.github.io/party/
 BEGIN:VALARM
 TRIGGER:-P45D
 ACTION:DISPLAY
